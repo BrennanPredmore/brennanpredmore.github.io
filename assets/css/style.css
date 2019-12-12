@@ -17,7 +17,7 @@ body {
 p {
     color: #777777;
     text-align: center;
-    color: #cccccc;
+    color: white;
 }
 
 #main {
@@ -39,19 +39,26 @@ li a {
 
 #links {
     margin: 0 auto;
+    margin-right: auto;
 }
 
 #contact {
+    padding-right: 16.6%;
 
 }
 
 #portfolio {
     border-right: black solid thin;
+    border-spacing: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
 }
 
 #about {
     border-right: black solid thin;
     border-spacing: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
 }
 
 #profile_image {
@@ -64,11 +71,38 @@ h2 {
     color: #4aaaa5;
     clear: both;
     margin-left: 50px;
+    height: 10px;
 }
 
 h5 {
     text-align: center;
 }
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+  }
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+.row {
+    padding-right: -20px;
+    padding-left: -20px;
+    border: thick black;
+}
+
 
 footer {
     background-color: #666666;
@@ -76,7 +110,7 @@ footer {
     padding-bottom: -20px;
     margin-top: 20px;
     height: 100px;
-    color:#cccccc;
+    color: #f2f2f2;
     position: fixed;
     left: 0;
     bottom: 0;
