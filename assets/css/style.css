@@ -1,8 +1,9 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=c4871c607b&attid=0.1&permmsgid=msg-a:r-909009446552489087&th=16ef2265180db94d&view=att&disp=safe&realattid=f_k40hzcez0);
+    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=c4871c607b&attid=0.1&permmsgid=msg-a:r-3878229013756304830&th=16f00f3e31820da7&view=att&disp=safe&realattid=f_k44lufkn0);
+    margin: 0;
 }
-
+/* header for all pages */
 #header {
     background-color: #4aaaa5;
     border: #cccccc solid thin;
@@ -12,19 +13,39 @@ body {
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 25px;
 }
 
+/* paragraph for index.html */
 p {
     color: #777777;
     text-align: center;
-    color: white;
+
 }
 
+/* main content div for index page */
 #main {
-    background: #666666;
-    border: #dddddd;
+    background: #ffffff;
+    border: #dddddd 10px;
     width: 960px;
     margin: 0 auto;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 100px;
+    left: 16.6%;
+}
+
+/* main content div for portfolio page */
+#main-2 {
+    background: #ffffff;
+    border: #dddddd 10px;
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 ul {
@@ -34,76 +55,140 @@ ul {
 li a {
     color: #4aaaaf;
     float: right;
-
 }
-
+/* all links */
 #links {
     margin: 0 auto;
     margin-right: auto;
+    color: #777777;
 }
 
+/* contact link */
 #contact {
     padding-right: 16.6%;
+    color: #777777;
 
 }
 
+/* portfolio link */
 #portfolio {
     border-right: black solid thin;
     border-spacing: 20px;
     margin-right: 20px;
     padding-right: 20px;
+    color: #777777;
 }
 
+/* about link */
 #about {
     border-right: black solid thin;
     border-spacing: 20px;
     margin-right: 20px;
     padding-right: 20px;
+    color: #777777;
 }
 
+/* index image */
 #profile_image {
     float: left;
     padding-right: 10px;
     padding-left: 10px;
 }
 
+/* subheader for index/portfolio pages */
 h2 {
     color: #4aaaa5;
     clear: both;
     margin-left: 50px;
     height: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
+/* subheader for contact page */
+h3 {
+    color: #4aaaa5;
+    clear: both;
+    margin-left: 50px;
+    height: -150px;
+    font-size: 30px;
+    margin-left: 15%;
+}
+
+/* footer copyright text */
 h5 {
     text-align: center;
 }
 
-
+/* contact form div */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-  }
-  
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 25px;
-    padding-right: 5px;
-    padding-left: 5px;
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
   }
 
-.row {
-    padding-right: -20px;
-    padding-left: -20px;
-    border: thick black;
+/* submit button on contact page*/
+#button {
+    background-color: #4aaaa5;
+    font-size: 15px;
+    color: white;
+} 
+
+/* main content div for contact page */
+.container {
+    background-color: #ffffff;
+    width: 960px;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+/* hangman image */  
+#hangman {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
+/*rpg-game image */
+#rpg-game {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
+/*rock pager scissors image */
+#rock-paper-scissors {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* rutgers image */
+#rutgers-info-widget {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* trivia game image */
+#trivia-game {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* footer for contact/portfolio pages */
 footer {
     background-color: #666666;
     text-align: center;
@@ -111,8 +196,13 @@ footer {
     margin-top: 20px;
     height: 100px;
     color: #f2f2f2;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    
+}
+
+/* footer for index page */
+.indexfooter {
+    position: absolute;
     width: 100%;
+    bottom: 0;
+
 }
