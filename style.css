@@ -29,49 +29,30 @@ body {
 }
 
 .navbar-toggler-icon {
-background-color: #4aaaa5;
-border: black solid 3px;
-height: 30px;
-width: 30px;
+    background-color: #4aaaa5;
+    border: black solid 3px;
+    height: 30px;
+    width: 30px;
 }
 
-/* index image */
-#profile_image {
-    float: left;
-    padding-right: 10px;
-    padding-left: 10px;
+/* PORTFOLIO IMAGE CARDS */
+.card {
+    width: 50%;
+    height: 50%;
+    margin: auto;
 }
 
-.portfolio-images {
-    width: 150px;
-    height: 125px;
-    margin: 25px;
+#workDayScheduler {
+    border: thick solid #4aaaa5;
 }
 
-/* hangman image */
-#hangman {
-    margin: 25px;
-
+#projectOne {
+    border: thick solid #4aaaa5;
 }
 
-/*rpg-game image */
-#rpg-game {
-    margin: 25px;
-}
+#codeQuiz {
+    border: thick solid #4aaaa5;
 
-/*rock pager scissors image */
-#rock-paper-scissors {
-    margin: 25px;
-}
-
-/* rutgers image */
-#rutgers-info-widget {
-    margin: 25px;
-}
-
-/* trivia game image */
-#trivia-game {
-    margin: 25px;
 }
 
 /* paragraph for index.html */
@@ -162,6 +143,19 @@ textarea {
     border-color: #dddddd;
 }
 
+.container-fluid {
+
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
 
 /* footer for contact/portfolio pages */
 footer {
@@ -169,13 +163,13 @@ footer {
     text-align: center;
     padding-bottom: -20px;
     margin-top: 20px;
-    height: 100px;
+    height: 35px;
     color: #f2f2f2;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    border-top: 8px solid #4aaaa5;
+    border-top: 5px solid #4aaaa5;
 
 }
 
