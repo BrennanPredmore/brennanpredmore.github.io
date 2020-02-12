@@ -33,25 +33,6 @@ body {
     width: 30px;
 }
 
-/* PORTFOLIO IMAGE CARDS */
-.card {
-    width: 50%;
-    height: 50%;
-    margin: auto;
-}
-
-#workDayScheduler {
-    border: thick solid #4aaaa5;
-}
-
-#projectOne {
-    border: thick solid #4aaaa5;
-}
-
-#codeQuiz {
-    border: thick solid #4aaaa5;
-
-}
 
 /* paragraph for index.html */
 p {
@@ -70,18 +51,22 @@ h3 {
     margin-left: 1%;
 }
 
-#links {
-    margin: 0 auto;
-    margin-right: auto;
-    color: white;
-}
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
     font-weight: bold;
 }
 
+
+/* HEADER LINKS */
+
 /* about link */
+#links {
+    margin: 0 auto;
+    margin-right: auto;
+    color: white;
+}
+
 #about {
     border-right: #777777 solid 1px;
     border-spacing: 20px;
@@ -105,6 +90,9 @@ h3 {
     color: #777777;
 
 }
+
+
+/* CONTACT PAGE */
 
 /* contact form div */
 input[type=text],
@@ -146,11 +134,8 @@ textarea {
     text-align: center;
 }
 
-ul {
-    list-style: none;
-    color: white;
-}
 
+/* PORTFOLIO CARDS */
 h1 {
     color: white;
 }
@@ -160,10 +145,30 @@ h5 {
 }
 
 #cardTitle {
-    color: #666666;
+    color: black;
+    margin: auto;
+  
 }
 
-/* footer for contact/portfolio pages */
+h7 {
+    font-size: 12px;
+}
+
+.card {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    border: thick solid #4aaaa5;
+    margin-top: 20px;
+    
+}
+
+img:hover {
+    opacity: 0.5;
+  }
+
+
+/* FOOTER */
 footer {
     background-color: #666666;
     text-align: center;
