@@ -7,9 +7,6 @@ body {
 #myVideo {
     position: fixed;
     z-index: -1;
-    left: 0;
-    bottom: 0;
-    width: 150%;
 }
 
 #header {
@@ -180,6 +177,30 @@ footer {
     border-top: 5px solid #4aaaa5;
 
 }
+
+/* BACKGROUND VIDEO */
+@media (min-aspect-ratio: 16/9) {
+    #myVideo {
+        width:100%;
+        height: auto;
+    }
+
+    @media (max-aspect-ratio: 16/9) {
+        #myVideo { 
+            width:auto;
+            height: 100%;
+        }
+    }
+
+    @media (max-width: 767px) {
+        #myVideo {
+            display: none;
+        }
+        body {
+            background: url('poster.jpg');
+            background-size: cover;
+        }
+    }
 
 /* Greater than 641px and less than 990px, Tablet */
 @media (min-width:641px) and (max-width:990px) {
