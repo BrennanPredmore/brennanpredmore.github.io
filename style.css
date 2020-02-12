@@ -161,6 +161,10 @@ h5 {
     color: white;
 }
 
+#cardTitle {
+    color: #666666;
+}
+
 /* footer for contact/portfolio pages */
 footer {
     background-color: #666666;
