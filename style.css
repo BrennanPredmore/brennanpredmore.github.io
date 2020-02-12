@@ -171,8 +171,8 @@ img:hover {
     opacity: 0.5;
   }
 
-
-/* FOOTER */
+/* 
+FOOTER */
 footer {
     background-color: #666666;
     text-align: center;
@@ -201,6 +201,7 @@ footer {
     border-top: 5px solid #4aaaa5;
     position: fixed;
 }
+
 
 /* BACKGROUND VIDEO */
 @media (min-aspect-ratio: 16/9) {
