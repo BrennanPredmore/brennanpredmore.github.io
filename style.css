@@ -1,5 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
 
 }
 
@@ -170,11 +171,11 @@ footer {
     margin-top: 20px;
     height: 35px;
     color: #f2f2f2;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     border-top: 5px solid #4aaaa5;
+    
 
 }
 
@@ -197,7 +198,7 @@ footer {
             display: none;
         }
         body {
-            background: url('poster.jpg');
+            background: url('assets/images/mobileBackGround.png');
             background-size: cover;
         }
     }
