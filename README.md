@@ -2,6 +2,9 @@
 
 This is composed of 3 pages
 Index, Portfolio, and Contact
+The index page has a brief 'about me' section with an image of myself 
+The portfolio page has a list of 3 projects, my resume, my github, and my linkedIn
+The contact page has a contact form for the server to input a messgae to my email.
 
 ![Screenshot](assets/images/readMeScreenShot.png)
 
@@ -13,7 +16,7 @@ This is where the main website will be launched
 ## Langauges Used
 
 HTML 
-CSS
+CSS/BOOTSTRAP
 JAVASCRIPT/JQUERY
 
 ## Contributing
