@@ -250,7 +250,7 @@ footer {
     }
 
     /* Less than 640px, Mobile */
-    @media (max-width:641px) {
+    @media (max-width:375px) {
         body {
             text-align: center;
             background: #4aaaa5 url('assets/images/mobileBackGround.png') fixed center !important;

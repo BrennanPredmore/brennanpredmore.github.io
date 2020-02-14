@@ -3,7 +3,7 @@
 This is composed of 3 pages
 Index, Portfolio, and Contact
 
-![Screenshot](assets/images/readMe.md_screenShot.png)
+![Screenshot](assets/images/readMeScreenShot.png)
 
 ## Github pages 
 
