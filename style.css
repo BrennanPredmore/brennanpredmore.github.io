@@ -45,6 +45,13 @@ body {
 p {
     color: white;
     text-align: center;
+    font-size: 1.2rem;
+    text-shadow:
+    3px  3px 0 #333,
+   -1px -1px 0 #333,  
+    1px -1px 0 #333,
+   -1px  1px 0 #333,
+    1px  1px 0 #333;
 }
 
 #profile_image {
@@ -181,18 +188,26 @@ h5 {
 }
 
 #cardTitle {
-    color: white;
-    margin: auto;
+    color: #333;
+    margin: 0 auto;
     font-size: 0.5 rem;
+    text-align: center;
+    text-shadow:
+    3px  3px 0 #f2f2f2,
+    -1px -1px 0 #f2f2f2,  
+     1px -1px 0 #f2f2f2,
+    -1px  1px 0 #f2f2f2,
+     1px  1px 0 #f2f2f2;
 }
 
 h7 {
     font-size: 10%;
 }
 
+/* CARDS */
 .card {
     width: 50%;
-    height: 25%;
+    height: 16rem;
     margin: auto;
     border: thick groove white;
     margin-top: 20px;
@@ -200,12 +215,31 @@ h7 {
 
 }
 
+.social {
+    height: 29rem;
+    margin-bottom: 3rem;
+}
+
+
 img:hover {
     opacity: 0.5;
 }
 
 .img-fluid {
     margin-bottom: 10px;
+}
+
+
+.contactHeader { 
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        text-shadow:
+        3px  3px 0 #333,
+       -1px -1px 0 #333,  
+        1px -1px 0 #333,
+       -1px  1px 0 #333,
+        1px  1px 0 #333;   
 }
 
 /* 
@@ -272,6 +306,8 @@ footer {
 
     }
 
+}
+
     /* Less than 640px, Mobile */
     @media (max-width:375px) {
         body {
@@ -279,5 +315,8 @@ footer {
             background: #4aaaa5 url('assets/images/mobileBackGround.png') fixed center !important;
         }
 
+        .social {
+            height: 17.5rem;
+            margin-bottom: 3rem;
+        }
     }
-}
